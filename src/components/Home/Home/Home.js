@@ -7,6 +7,7 @@ import HomePageService from "../HomePageService/HomePageService";
 
 // import Other from "../Other/Other";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
+import ExploreWork from "../ExploreWork/ExploreWork";
 
 const Home = () => {
 	useTitle("Home");
@@ -18,6 +19,7 @@ const Home = () => {
 			<HomePageService></HomePageService>
 			<About></About>
 			<WhyChooseUs></WhyChooseUs>
+			<ExploreWork></ExploreWork>
 		</div>
 	);
 };

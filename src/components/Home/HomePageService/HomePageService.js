@@ -18,8 +18,8 @@ const HomePageService = () => {
 	return (
 		<div>
 			<div className="text-center mt-5">
-				<p className="text-2xl font-bold text-orange-600">Services</p>
-				<h2 className="text-5xl font-semibold">Quality wooden products</h2>
+				<p className="text-lg font-semibold text-amber-400">Services</p>
+				<h2 className="text-4xl font-bold">Quality wooden products</h2>
 				<p className="mt-5">
 					There is a number of service I provide since a many years.
 					<br />
