@@ -36,7 +36,7 @@ const bannerData = [
 
 const Banner = () => {
     return (
-        <div className="carousel w-full py-20">
+        <div className="carousel w-full py-8">
             {
                 bannerData.map(slide => <BannerItem
                 key={slide.id}

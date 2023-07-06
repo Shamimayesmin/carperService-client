@@ -26,7 +26,7 @@ const ServiceCard = ({ service }) => {
 				<p className="text-lg text-orange-400">Rating : {4.5}</p>
 				<div className="card-actions justify-around">
 					<Link to={`/details/${_id}`}>
-						<button className="btn bg-amber-600">View Detaills</button>
+						<button className="btn bg-amber-500">View Detaills</button>
 					</Link>
 					
 				</div>

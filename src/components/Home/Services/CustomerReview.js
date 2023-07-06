@@ -4,7 +4,7 @@ const CustomerReview = (review) => {
     console.log(review);
     return (
         <div>
-            thsi si reviw
+            thsi is review
         </div>
     );
 };

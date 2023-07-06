@@ -35,9 +35,9 @@ const HomePageService = () => {
 					></HomePageServiceCard>
 				))}
 			</div>
-			<div className="mb-20 flex justify-center">
-				<Link to="/services" className="rounded-lg bg-teal-400 py-5 px-6">
-					<button className="">See All</button>
+			<div className="mb-10 flex justify-center">
+				<Link to="/services" className="rounded-lg bg-gradient-to-tr from-orange-500 to-amber-300 py-3 px-6 ">
+					<button className="text-white ">SEE ALL</button>
 				</Link>
 			</div>
 		</div>
