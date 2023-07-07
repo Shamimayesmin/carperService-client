@@ -27,7 +27,7 @@ const HomePageService = () => {
 				</p>
 			</div>
 
-			<div className="grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-32">
+			<div className="grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
 				{addService.slice(0,3).map((service) => (
 					<HomePageServiceCard key={service._id}
 					 service={service}
@@ -37,7 +37,7 @@ const HomePageService = () => {
 			</div>
 			<div className="mb-10 flex justify-center">
 				<Link to="/services" className="rounded-lg bg-gradient-to-tr from-orange-500 to-amber-300 py-3 px-6 ">
-					<button className="text-white ">SEE ALL</button>
+					<button className="text-white">SEE ALL</button>
 				</Link>
 			</div>
 		</div>

@@ -9,6 +9,7 @@ import HomePageService from "../HomePageService/HomePageService";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import ExploreWork from "../ExploreWork/ExploreWork";
 import MeetATeam from "../MeetATeam/MeetATeam";
+import WorkingProcess from "../WorkingProcess/WorkingProcess";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
 			<WhyChooseUs></WhyChooseUs>
 			<ExploreWork></ExploreWork>
 			<MeetATeam></MeetATeam>
+			<WorkingProcess></WorkingProcess>
 		</div>
 	);
 };

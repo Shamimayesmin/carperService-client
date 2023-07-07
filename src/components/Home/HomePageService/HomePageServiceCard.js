@@ -6,7 +6,7 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 const HomePageServiceCard = ({service}) => {
     const { photo, price, title, _id, message} = service;
     return (
-        <div className="card card-compact w-96 bg-base-100 shadow-2xl mt-12">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl mt-12">
 			<figure>
 				
 
