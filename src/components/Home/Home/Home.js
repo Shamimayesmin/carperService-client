@@ -8,6 +8,8 @@ import HomePageService from "../HomePageService/HomePageService";
 // import Other from "../Other/Other";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import ExploreWork from "../ExploreWork/ExploreWork";
+import MeetATeam from "../MeetATeam/MeetATeam";
+
 
 const Home = () => {
 	useTitle("Home");
@@ -20,6 +22,7 @@ const Home = () => {
 			<About></About>
 			<WhyChooseUs></WhyChooseUs>
 			<ExploreWork></ExploreWork>
+			<MeetATeam></MeetATeam>
 		</div>
 	);
 };

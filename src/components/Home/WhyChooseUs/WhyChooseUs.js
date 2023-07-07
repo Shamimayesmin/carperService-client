@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
 				<div className="w-96 flex gap-2">
 					<div>
                         <span>
-                            <GiHouse className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
+                            <GiHouse className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md bg-slate-50"/>
                         </span>
                     </div>
 					<div>
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
 				<div className="w-96 flex gap-2">
 					<div>
                         <span>
-                            <PiBrain className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
+                            <PiBrain className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md bg-slate-50"/>
                         </span>
                     </div>
 					<div>
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
 				<div className="w-96 flex gap-2">
 					<div>
                         <span>
-                            <VscTools className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
+                            <VscTools className="text-6xl bg-slate-50 hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
                         </span>
                     </div>
 					<div>
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
 				<div className="w-96 flex gap-2">
 					<div>
                         <span>
-                            <GiTrophyCup className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
+                            <GiTrophyCup className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md bg-slate-50"/>
                         </span>
                     </div>
 					<div>
@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
 				<div className="w-96 flex gap-2">
 					<div>
                         <span>
-                            <BsChatSquareText className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
+                            <BsChatSquareText className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md bg-slate-50"/>
                         </span>
                     </div>
 					<div>
@@ -88,7 +88,7 @@ const WhyChooseUs = () => {
 				<div className="w-96 flex gap-2">
 					<div>
                         <span>
-                            <BsClockHistory className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md"/>
+                            <BsClockHistory className="text-6xl hover:bg-amber-300 p-3 text-amber-500 hover:text-white rounded-md bg-slate-50"/>
                         </span>
                     </div>
 					<div>

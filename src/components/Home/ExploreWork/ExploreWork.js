@@ -3,7 +3,7 @@ import React from "react";
 const ExploreWork = () => {
 	return (
 		<>
-			<section className="mt-32 grid grid-cols-4">
+			<section className="mt-32 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
 				<div className=" w-80 group relative block bg-black">
 					<img
 						alt="Developer"
@@ -75,66 +75,9 @@ const ExploreWork = () => {
 					</div>
 				</div>
 
-				{/* <div>
-			<>
-				<h2 classNameName="text-center text-amber-400 font-semibold text-lg">Welcome</h2>
-				<h3 classNameName="text-center text-4xl font-sans font-bold">
-					WHY CHOOSE US ?
-				</h3>
-			</>
-			<div classNameName="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 my-10">
-				<div classNameName="w-96">
-					<img
-						alt="Art"
-						src="	http://demo.cottic.com/woodworks/images/joomlabuff/service/1.jpg"
-						className="h-64 w-full object-cover sm:h-80 lg:h-96"
-					/>
-
-					<h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-						TRUSTWORTHY
-					</h3>
-
-					<p className="mt-2 max-w-sm text-gray-700">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
-						reiciendis sequi ipsam incidunt.
-					</p>
-				</div>
-				<div classNameName="w-96">
-					<img
-						alt="Art"
-						src="http://demo.cottic.com/woodworks/images/joomlabuff/service/2.jpg"
-						className="h-64 w-full object-cover sm:h-80 lg:h-96"
-					/>
-
-					<h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-						LOCALLY-OWNED
-					</h3>
-
-					<p className="mt-2 max-w-sm text-gray-700">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
-						reiciendis sequi ipsam incidunt.
-					</p>
-				</div>
-				<div classNameName="w-96">
-					<img
-						alt="Art"
-						src="http://demo.cottic.com/woodworks/images/joomlabuff/service/3.jpg"
-						className="h-64 w-full object-cover sm:h-80 lg:h-96"
-					/>
-
-					<h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-						EXPERIENCED
-					</h3>
-
-					<p className="mt-2 max-w-sm text-gray-700">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
-						reiciendis sequi ipsam incidunt.
-					</p>
-				</div>
-			</div>
-		</div> */}
+			
 			</section>
-			<section className="mb-32">
+			<section className="mb-24">
 				<div className="bg-slate-50 p-14 w-full flex justify-around">
 					<h2 className="text-2xl uppercase font-semibold">Do You Want to explore all our works?</h2>
                     <button className="btn outline-1 bg-gradient-to-tr from-orange-500 to-amber-300">Click Here</button>
