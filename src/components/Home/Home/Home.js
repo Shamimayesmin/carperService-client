@@ -11,6 +11,7 @@ import ExploreWork from "../ExploreWork/ExploreWork";
 import MeetATeam from "../MeetATeam/MeetATeam";
 import WorkingProcess from "../WorkingProcess/WorkingProcess";
 import ContactUs from "../ContactUs/ContactUs";
+import News from "../News/News";
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
 			<MeetATeam></MeetATeam>
 			<WorkingProcess></WorkingProcess>
 			<ContactUs></ContactUs>
+			<News></News>
 		</div>
 	);
 };
