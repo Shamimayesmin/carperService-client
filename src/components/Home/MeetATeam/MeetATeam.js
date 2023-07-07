@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const MeetATeam = () => {
 	return (
-		<div className="mt-20 mb-20">
+		<div className="mt-20 mb-20 bg-slate-50">
 			<h2 className="text-2xl font-bold uppercase">Meet our team</h2>
 			<div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3">
 				<div class="group relative block bg-black my-10 w-72 h-80">
@@ -102,7 +102,7 @@ const MeetATeam = () => {
 				</div>
 			</div>
 
-			<section>
+			<section className="p-5">
 				<p className="text-center items-center text-2xl">
 					We’re always looking for talented Carpenters, creative directors and
 					anyone has a <br /> passion for the interior designing join our team.

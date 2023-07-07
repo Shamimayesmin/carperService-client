@@ -10,6 +10,7 @@ import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import ExploreWork from "../ExploreWork/ExploreWork";
 import MeetATeam from "../MeetATeam/MeetATeam";
 import WorkingProcess from "../WorkingProcess/WorkingProcess";
+import ContactUs from "../ContactUs/ContactUs";
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
 			<ExploreWork></ExploreWork>
 			<MeetATeam></MeetATeam>
 			<WorkingProcess></WorkingProcess>
+			<ContactUs></ContactUs>
 		</div>
 	);
 };
